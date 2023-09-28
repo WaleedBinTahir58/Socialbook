@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/utili.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/s.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Profile page - Socialbook</title>
+</head>
+
+<body>
+
+    <!-- -------------------------NavBar------------------------- -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <img src="images/logo2.png" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="images/search.png" class="search">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/1.jpg">
+            </div>
+
+        </div>
+
+        <!-- -------------------------Setting Menu------------------------- -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+
+                <div class="user-profile">
+                    <img src="images/1.jpg">
+                    <div>
+                        <p>Waleed Bin Tahir</p>
+                        <a href="index (2).html">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">
+                        Settings & Privacy
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">
+                        Help & Support
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">
+                        Display & Accessibility
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">
+                        Logout
+                        <img src="images/arrow.png" width="10px">
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- -------------------------Profile page------------------------- -->
+    <div class="profile-contianer">
+        <img src="images/cover.png" class="cover-img">
+
+        <div class="profile-details">
+
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/1.jpg" class="pd-img">
+                    <div>
+                        <h3>Waleed</h3>
+                        <p>100k Friends - 20k mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pd-right">
+                <button type="button">
+                    <img src="images/add-friends.png">
+                    Friend
+                </button>
+                <button type="button">
+                    <img src="images/message.png">
+                    Message
+                </button>
+                <br>
+                <a href="#"><img src="images/more.png"></a>
+            </div>
+
+        </div>
+
+        <div class="profile-info">
+
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">
+                        Believe in yourself and you can do unbelievable things.😎😁😊
+                    </p>
+                    <hr>
+
+                    <ul>
+                        <li>
+                            <img src="images/profile-job.png">
+                            Boss at Alpha Ltd
+                        </li>
+                        <li>
+                            <img src="images/profile-study.png">
+                            Studied at St.Clair College
+                        </li>
+                        <li>
+                            <img src="images/profile-study.png">
+                            Went to Aps School Lahore
+                        </li>
+                        <li>
+                            <img src="images/profile-home.png">
+                            Live in Ontario,Canada
+                        </li>
+                        <li>
+                            <img src="images/profile-location.png">
+                            Live in Bahria Orchad Lahore
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="profile-intro">
+
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+
+                    <div class="photo-box">
+                        <div><img src="images/photo1.png"></div>
+                        <div><img src="images/photo2.png"></div>
+                        <div><img src="images/photo3.png"></div>
+                        <div><img src="images/photo4.png"></div>
+                        <div><img src="images/photo5.png"></div>
+                        <div><img src="images/photo6.png"></div>
+                    </div>
+
+                </div>
+
+                <div class="profile-intro">
+
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+
+                    <p>100k (20k mutual)</p>
+
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png">
+                            <p>Alize Shah</p>
+                        </div>
+                        <div><img src="images/member-2.png">
+                            <p>Haris</p>
+                        </div>
+                        <div><img src="images/member-3.png">
+                            <p>Ajwa Umar</p>
+                        </div>
+                        <div><img src="images/member-4.png">
+                            <p>Ali</p>
+                        </div>
+                        <div><img src="images/member-5.png">
+                            <p>Danish</p>
+                        </div>
+                        <div><img src="images/member-6.png">
+                            <p>Aysha</p>
+                        </div>
+                        <div><img src="images/member-7.png">
+                            <p>Ahsan</p>
+                        </div>
+                        <div><img src="images/member-8.png">
+                            <p>Hania</p>
+                        </div>
+                        <div><img src="images/member-9.png">
+                            <p>Awais</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="post-col">
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/1.jpg">
+                        <div>
+                            <p>Waleed Bin Tahir</p>
+                            <small>
+                                Public
+                                <i class="fas fa-caret-down"></i>
+                            </small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+
+                        <textarea rows="3" placeholder="What's on your mind, Waleed?"></textarea>
+
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/live-video.png"> Live Video</a>
+                            <a href="#"><img src="images/photo.png"> Photo Video</a>
+                            <a href="#"><img src="images/feeling.png"> Feeling Activity</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/1.jpg">
+                            <div>
+                                <p>Waleed Bin Tahir</p>
+                                <span>May 26 2023 at 14:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                    </div>
+
+                    <p class="post-text">
+                        Subscribe <span>@Waleed's Coding Lab</span> on youtube for more such projects and to master in
+                        HTML,CSS and
+                        JavaScript.
+                        <a href="#">#Waleed's Coding Lab</a>
+                        <a href="#">#Youtube Channel</a>
+                    </p>
+                    <img src="images/feed-image-1.png" class="post-img">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+                            <div> <img src="images/like-blue.png"> 50k</div>
+                            <div> <img src="images/comments.png"> 42k</div>
+                            <div> <img src="images/share.png"> 10k</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="images/1.jpg">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/1.jpg">
+                            <div>
+                                <p>Waleed Bin Tahir</p>
+                                <span>June 26 2023 at 12:00 pm</span>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                    </div>
+
+                    <p class="post-text">
+                        Like Share and Subscribe <span>@Waleed's Coding Lab</span> on facebook page and ask any question
+                        in
+                        comment section.
+                        <a href="#">#Waleed's Coding Lab</a>
+                        <a href="#">#Youtube Channel</a>
+                    </p>
+                    <img src="images/feed-image-2.png" class="post-img">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+                            <div> <img src="images/like.png"> 60k</div>
+                            <div> <img src="images/comments.png"> 50k</div>
+                            <div> <img src="images/share.png"> 5k</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="images/1.jpg">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/1.jpg">
+                            <div>
+                                <p>Waleed Bin Tahir</p>
+                                <span>Jult 10 2023 at 13:02 pm</span>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                    </div>
+
+                    <p class="post-text">
+                        Like Share and Subscribe <span>@Waleed's Coding Lab</span> on instagram page and support us for
+                        more
+                        projects.
+                        <a href="#">#Waleed's Coding Lab</a>
+                        <a href="#">#Youtube Channel</a>
+                    </p>
+                    <img src="images/feed-image-3.png" class="post-img">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+                            <div> <img src="images/like.png"> 30k</div>
+                            <div> <img src="images/comments.png"> 20k</div>
+                            <div> <img src="images/share.png"> 5k</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="images/1.jpg">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/1.jpg">
+                            <div>
+                                <p>Waleed Bin Tahir</p>
+                                <span>August 15 2023 at 11:00 am</span>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                    </div>
+
+                    <p class="post-text">
+                        Like Share and Subscribe <span>@Waleed's Coding Lab</span> on twitter and free hazel free to ask
+                        question.
+                        <a href="#">#Waleed's Coding Lab</a>
+                        <a href="#">#Youtube Channel</a>
+                    </p>
+                    <img src="images/feed-image-4.png" class="post-img">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+                            <div> <img src="images/like.png"> 70k</div>
+                            <div> <img src="images/comments.png"> 60k</div>
+                            <div> <img src="images/share.png"> 15k</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="images/1.jpg">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/1.jpg">
+                            <div>
+                                <p>Waleed Bin Tahir</p>
+                                <span>September 18 2023 at 10:00 pm</span>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                    </div>
+
+                    <p class="post-text">
+                        Like Share and Subscribe <span>@Waleed's Coding Lab</span> on replit in order to see projects
+                        code
+                        and to understand thoroughly.
+                        <a href="#">#Waleed's Coding Lab</a>
+                        <a href="#">#Youtube Channel</a>
+                    </p>
+                    <img src="images/feed-image-5.png" class="post-img">
+
+                    <div class="post-row">
+
+                        <div class="activity-icons">
+                            <div> <img src="images/like.png"> 80k</div>
+                            <div> <img src="images/comments.png"> 40k</div>
+                            <div> <img src="images/share.png"> 20k</div>
+                        </div>
+
+                        <div class="post-profile-icon">
+                            <img src="images/1.jpg">
+                            <i class="fas fa-caret-down"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- -------------------------Footer------------------------- -->
+    <footer>
+        <a href="https://bond.libguides.com/copyright-for-staff/avoiding-infringements/copyright-warning-notices">Copyright
+            issue | www.facebook.com</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+:root {
+    --body-color: #efefef;
+    --nav-color: #1876f2;
+    --bg-color: #fff;
+}
+
+.dark-theme {
+    --body-color: #0a0a0a;
+    --nav-color: #000;
+    --bg-color: #000;
+}
+
+.search {
+    cursor: pointer;
+}
+
+.online {
+    position: relative;
+}
+
+.online::after {
+    content: "";
+    height: 7px;
+    width: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slidebar-ads {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.story1 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url('../images/1.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.story2 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url('../images/status-2.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.story3 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url('../images/status-3.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.story4 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url('../images/status-4.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.story5 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.5)), url('../images/status-5.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.post-text {
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.post-text span {
+    color: #626262;
+    font-weight: 600;
+}
+
+.post-text a {
+    color: #1876f2;
+    text-decoration: none;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.load-more-btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
+}
+
+.settings-menu hr {
+    border: 0;
+    height: 1px;
+    background: #9a9a9a;
+    margin: 15px 0;
+}
+
+#dark-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ccc;
+    width: 45px;
+    border-radius: 15px;
+    padding: 2px 3px;
+    cursor: pointer;
+    display: flex;
+    transition: padding-left 0.5s, background 0.5s;
+    border: 1px solid white;
+}
+
+#dark-btn span {
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dark-btn.dark-btn-on {
+    padding-left: 23px;
+    background: #0a0a0a;
+}
